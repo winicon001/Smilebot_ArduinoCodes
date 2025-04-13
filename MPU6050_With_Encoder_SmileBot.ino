@@ -9,7 +9,8 @@
 //               : Code assisted by Microsoft Copilot, an AI tool developed by Microsoft
 
 
-// This code combine the custom code for reading MPU6050 accelerometer with the readings of Wheel Wheel Encoders
+// This code is designed for use on ESP32.
+// It combines the custom code for reading MPU6050 accelerometer with the readings of Wheel Wheel Encoders
 // Both components readings are combined into a list which is sent over serial to be read by Raspberry Pi for SQL 
 // data logging and other computations.
 // The full project can be found @  https://github.com/winicon001
